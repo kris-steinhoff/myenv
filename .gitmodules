@@ -1,0 +1,9 @@
+[submodule "dotfiles"]
+	path = dotfiles
+	url = git@github.com:ksteinhoff/dotfiles.git
+[submodule "gitprompt"]
+	path = gitprompt
+	url = git@github.com:ksteinhoff/gitprompt.git
+[submodule "screen-session-attach"]
+	path = screen-session-attach
+	url = git@github.com:ksteinhoff/screen-session-attach.git
