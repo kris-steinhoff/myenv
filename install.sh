@@ -11,17 +11,20 @@ export COLOR_NONE="\e[0m"
 
 function notice()
 {
-    echo "${COLOR_GREEN}${*}${COLOR_NONE}"
+    # print in green
+    echo $'\e[32m'${*}$'\e[0m'
 }
 
 function warning()
 {
-    echo "${COLOR_YELLOW}${*}${COLOR_NONE}"
+    # print in yellow
+    echo $'\e[33m'${*}$'\e[0m'
 }
 
 function error()
 {
-    echo "${COLOR_RED}ERROR ${*}${COLOR_NONE}"
+    # print in red
+    echo $'\e[31m'${*}$'\e[0m'
 }
 
 function set_link()
