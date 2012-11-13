@@ -1,0 +1,5 @@
+MYENV_DIR="$(cd `dirname "${BASH_SOURCE[0]}"` && pwd)"
+test -r ${MYENV_DIR}/dotfiles/bashrc_common && source ${MYENV_DIR}/dotfiles/bashrc_common
+test -r ${MYENV_DIR}/gitprompt/gitprompt.sh && source ${MYENV_DIR}/gitprompt/gitprompt.sh
+test -r ${MYENV_DIR}/screen-session-attach/_attach_complete.sh && source ${MYENV_DIR}/screen-session-attach/_attach_complete.sh
+
