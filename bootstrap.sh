@@ -1,10 +1,12 @@
 # copy this script to a new home directory to bootstrap it
 
-echo 'test -r ${HOME}/.bashrc && source ${HOME}/.bashrc' >> ~/.bash_profile
+cd ${HOME}
+echo 'test -r ${HOME}/.bashrc && source ${HOME}/.bashrc' >> ${HOME}/bash_profile
 mkdir src bin
 cd src
-git clone git://github.com/ksteinhoff/myenv.git ~/src/myenv
-cd ~/src/myenv
+git clone git://github.com/ksteinhoff/myenv.git ${HOME}/src/myenv
+cd myenv
 git submodule init
 git submodule update
 ./install.sh
+source ${HOME}/.bashrc
