@@ -1,6 +1,6 @@
-This is a collection of shell config and utilities that I use in a number of
-places. I've collected it here to make my life easier when starting work on
-a new machine.
+This is a collection of shell configuration files and utilities that I use in
+a number of places. I have collected it here to make my life easier whenr
+starting work on a new machine.
 
 **To clone:**
 
