@@ -16,6 +16,6 @@ starting work on a new machine.
 2. Update the submodule repositories: git submodule update
 3. Install the config and utilities: ./install.sh
 
-  cd ~/src/myenv && git pull && git submodule update && ./install.sh && source ~/.bashrc
+`cd ~/src/myenv && git pull && git submodule update && ./install.sh && source ~/.bashrc`
 
 Kris Steinhoff, 2012
