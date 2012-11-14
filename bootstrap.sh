@@ -1,4 +1,4 @@
-# copy this script to a new home directory to bootstrap it
+# use these commands in a new home directory to bootstrap it
 
 cd ${HOME}
 echo 'test -r ${HOME}/.bashrc && source ${HOME}/.bashrc' >> ${HOME}/bash_profile
