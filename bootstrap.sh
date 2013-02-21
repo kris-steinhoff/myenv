@@ -4,7 +4,7 @@ cd ${HOME}
 echo 'test -r ${HOME}/.bashrc && source ${HOME}/.bashrc' >> ${HOME}/bash_profile
 mkdir src bin
 cd src
-git clone git://github.com/ksteinhoff/myenv.git ${HOME}/src/myenv
+git clone git://github.com/krisofa2/myenv.git ${HOME}/src/myenv
 cd myenv
 git submodule init
 git submodule update
