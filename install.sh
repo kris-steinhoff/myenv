@@ -71,10 +71,10 @@ else
     notice "added ${HOME}/.gitexcludes to core.excludesfile in ${HOME}/.gitconfig" ||
     error "could not add ${HOME}/.gitexcludes to core.excludesfile in ${HOME}/.gitconfig"
 
-    if [ "x${USER}" = "xkris" ]; then
-        git_user_email="kris@ofa2.com"
-    elif [ "x${USER}" = "xsteinhof" ]; then
+    if [ "x${USER}" = "xsteinhof" ]; then
         git_user_email="steinhof@umich.edu"
+    else
+        git_user_email="kris@ofa2.com"
     fi
 
     git config --global user.email ${git_user_email} &&
