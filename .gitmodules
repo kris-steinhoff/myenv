@@ -1,9 +1,9 @@
 [submodule "dotfiles"]
 	path = dotfiles
-	url = https://github.com/KRISofA2/dotfiles.git
+	url = https://github.com/ksofa2/dotfiles.git
 [submodule "gitprompt"]
 	path = gitprompt
-	url = https://github.com/KRISofA2/gitprompt.git
+	url = https://github.com/ksofa2/gitprompt.git
 [submodule "screen-session-attach"]
 	path = screen-session-attach
-	url = https://github.com/KRISofA2/screen-session-attach.git
+	url = https://github.com/ksofa2/screen-session-attach.git
