@@ -1,5 +1,8 @@
 MYENV_DIR="$(cd `dirname "${BASH_SOURCE[0]}"` && pwd)"
 test -r ${MYENV_DIR}/dotfiles/bashrc_common && source ${MYENV_DIR}/dotfiles/bashrc_common
 test -r ${MYENV_DIR}/gitprompt/gitprompt.sh && source ${MYENV_DIR}/gitprompt/gitprompt.sh
+test -r /home/steinhof/src/myenv/gitprompt/fancyprompt.sh && source /home/steinhof/src/myenv/gitprompt/fancyprompt.sh
 test -r ${MYENV_DIR}/screen-session-attach/_attach_complete.sh && source ${MYENV_DIR}/screen-session-attach/_attach_complete.sh
 
+export WINDOW_TITLE=`hostname | cut -d . -f 1`
+export PROMPT_COMMAND="fancy_prompt"
